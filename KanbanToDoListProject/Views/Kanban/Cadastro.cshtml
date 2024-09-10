@@ -1,0 +1,63 @@
+﻿@model IEnumerable<KanbanToDoListProject.Models.TaskItem>
+
+<div class="container">
+    <!-- Formulário de Adição de Tarefa -->
+    <form id="add-task-form" method="post" action="/Kanban/AddTask">
+        @Html.AntiForgeryToken()
+        <div class="form-group">
+            <label for="title">Título:</label>
+            <input type="text" id="title" name="Title" class="form-control" required />
+        </div>
+        <div class="form-group">
+            <label for="description">Descrição:</label>
+            <textarea id="description" name="Description" class="form-control" required></textarea>
+        </div>
+        <div class="form-group">
+            <label for="status">Status:</label>
+            <select id="status" name="Status" class="form-control" required>
+                <option value="ToDo">ToDo</option>
+                <option value="InProgress">InProgress</option>
+                <option value="Done">Done</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary">Adicionar Tarefa</button>
+    </form>
+
+    <!-- Kanban Board -->
+    <div class="kanban-board">
+        <!-- As colunas Kanban aqui -->
+        <!-- ... (seu código para colunas Kanban) ... -->
+    </div>
+</div>
+
+<!-- Inclua o SortableJS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const sortableOptions = {
+            group: 'kanban',
+            animation: 150,
+            onEnd: function (evt) {
+                const taskId = evt.item.getAttribute('data-id');
+                const newStatus = evt.from.id;
+
+                fetch('/Kanban/UpdateTaskStatus', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'RequestVerificationToken': document.querySelector('input[name="__RequestVerificationToken"]').value
+                    },
+                    body: JSON.stringify({ id: taskId, status: newStatus })
+                })
+                    .then(response => response.json())
+                    .then(data => console.log(data))
+                    .catch(error => console.error('Error:', error));
+            }
+        };
+
+        Sortable.create(document.getElementById('todo'), sortableOptions);
+        Sortable.create(document.getElementById('inprogress'), sortableOptions);
+        Sortable.create(document.getElementById('done'), sortableOptions);
+    });
+</script>

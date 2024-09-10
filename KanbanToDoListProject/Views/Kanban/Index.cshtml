@@ -1,0 +1,96 @@
+﻿@model IEnumerable<KanbanToDoListProject.Models.TaskItem>
+
+@using (Html.BeginForm("UpdateTaskStatus", "Kanban", FormMethod.Post, new { id = "kanbanForm" }))
+{
+@Html.AntiForgeryToken() <!-- Adiciona o token de verificação de CSRF -->
+}
+
+<div class="container kanban-board">
+    <!-- Formulário de Adição de Tarefa (já incluído) -->
+
+    <div class="kanban-column">
+        <h2>Pendente</h2>
+        <div id="ToDo" class="kanban-tasks">
+            @foreach (var task in Model.Where(t => t.Status == "ToDo"))
+            {
+                <div class="kanban-task" data-id="@task.Id">
+                    <h4>@task.Title</h4>
+                    <p>@task.Description</p>
+                    <span class="task-date">Criado em: @task.CreatedAt.ToString("dd/MM/yyyy")</span>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="kanban-column">
+        <h2>Em Progresso</h2>
+        <div id="InProgress" class="kanban-tasks">
+            @foreach (var task in Model.Where(t => t.Status == "InProgress"))
+            {
+                <div class="kanban-task" data-id="@task.Id">
+                    <h4>@task.Title</h4>
+                    <p>@task.Description</p>
+                    <span class="task-date">Criado em: @task.CreatedAt.ToString("dd/MM/yyyy")</span>
+                </div>
+            }
+        </div>
+    </div>
+
+    <div class="kanban-column">
+        <h2>Feito</h2>
+        <div id="Done" class="kanban-tasks">
+            @foreach (var task in Model.Where(t => t.Status == "Done"))
+            {
+                <div class="kanban-task" data-id="@task.Id">
+                    <h4>@task.Title</h4>
+                    <p>@task.Description</p>
+                    <span class="task-date">Criado em: @task.CreatedAt.ToString("dd/MM/yyyy")</span>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        const sortableOptions = {
+            group: 'kanban',
+            animation: 150,
+            handle: '.kanban-task',  // Adiciona um "handle" para o arrasto
+            onStart: function (evt) {
+                evt.item.classList.add('dragging');
+            },
+            onEnd: function (evt) {
+                evt.item.classList.remove('dragging');
+
+                const taskId = evt.item.getAttribute('data-id');
+                const newStatus = evt.to.id; // Obtém a nova coluna (destino)
+
+                const token = document.querySelector('input[name="__RequestVerificationToken"]').value;
+
+                fetch('/Kanban/UpdateTaskStatus', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'RequestVerificationToken': token
+                    },
+                    body: JSON.stringify({ id: taskId, status: newStatus }) // Envia o novo status correto
+                })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            console.log('Status atualizado com sucesso');
+                        } else {
+                            console.error('Erro ao atualizar o status');
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+        };
+
+        Sortable.create(document.getElementById('ToDo'), sortableOptions);
+        Sortable.create(document.getElementById('InProgress'), sortableOptions);
+        Sortable.create(document.getElementById('Done'), sortableOptions);
+    });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>

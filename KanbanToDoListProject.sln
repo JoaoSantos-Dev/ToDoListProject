@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanbanToDoListProject", "KanbanToDoListProject\KanbanToDoListProject.csproj", "{9294A630-5A08-43BF-B899-340FF0AA7CE1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9294A630-5A08-43BF-B899-340FF0AA7CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9294A630-5A08-43BF-B899-340FF0AA7CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9294A630-5A08-43BF-B899-340FF0AA7CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9294A630-5A08-43BF-B899-340FF0AA7CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5361454-71E0-4978-88B2-8EE579BD6778}
+	EndGlobalSection
+EndGlobal
