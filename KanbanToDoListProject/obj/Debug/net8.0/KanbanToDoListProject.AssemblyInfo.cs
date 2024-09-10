@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KanbanToDoListProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d3392f1055b3016c6540f0ccc57b92b7ac76cbae")]
 [assembly: System.Reflection.AssemblyProductAttribute("KanbanToDoListProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KanbanToDoListProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

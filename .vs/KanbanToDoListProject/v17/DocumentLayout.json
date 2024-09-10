@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\views\\kanban\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\controllers\\kanbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\controllers\\kanbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\views\\kanban\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\views\\kanban\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\controllers\\kanbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\controllers\\kanbancontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,8 +27,8 @@
       "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\data\\kanbancontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|solutionrelative:kanbantodolistproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9294A630-5A08-43BF-B899-340FF0AA7CE1}|KanbanToDoListProject\\KanbanToDoListProject.csproj|c:\\users\\joao ricardo\\source\\repos\\kanbantodolistproject\\kanbantodolistproject\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "KanbanToDoListProject\\Views\\Kanban\\Cadastro.cshtml",
               "ToolTip": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Views\\Kanban\\Cadastro.cshtml",
               "RelativeToolTip": "KanbanToDoListProject\\Views\\Kanban\\Cadastro.cshtml",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAYwD8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAYwDYAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-09T18:55:06.991Z",
               "EditorCaption": ""
@@ -69,20 +69,20 @@
               "RelativeDocumentMoniker": "KanbanToDoListProject\\Views\\Kanban\\Index.cshtml",
               "ToolTip": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Views\\Kanban\\Index.cshtml",
               "RelativeToolTip": "KanbanToDoListProject\\Views\\Kanban\\Index.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACcAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAgBAAAAAAAAAAAIwCABAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-09-09T18:05:45.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Views\\Kanban\\Index.cshtml.cs",
               "RelativeDocumentMoniker": "KanbanToDoListProject\\Views\\Kanban\\Index.cshtml.cs",
               "ToolTip": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Views\\Kanban\\Index.cshtml.cs",
               "RelativeToolTip": "KanbanToDoListProject\\Views\\Kanban\\Index.cshtml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T18:44:52.887Z",
               "EditorCaption": ""
@@ -102,26 +102,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "KanbanController.cs",
               "DocumentMoniker": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Controllers\\KanbanController.cs",
               "RelativeDocumentMoniker": "KanbanToDoListProject\\Controllers\\KanbanController.cs",
               "ToolTip": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Controllers\\KanbanController.cs",
               "RelativeToolTip": "KanbanToDoListProject\\Controllers\\KanbanController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwCoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAqwGYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T18:01:12.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Program.cs",
               "RelativeDocumentMoniker": "KanbanToDoListProject\\Program.cs",
               "ToolTip": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Program.cs",
               "RelativeToolTip": "KanbanToDoListProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T18:00:19.917Z",
               "EditorCaption": ""
@@ -134,7 +134,7 @@
               "RelativeDocumentMoniker": "KanbanToDoListProject\\Data\\KanbanContext.cs",
               "ToolTip": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Data\\KanbanContext.cs",
               "RelativeToolTip": "KanbanToDoListProject\\Data\\KanbanContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T18:00:05.778Z",
               "EditorCaption": ""
@@ -147,14 +147,14 @@
               "RelativeDocumentMoniker": "KanbanToDoListProject\\Models\\TaskItem.cs",
               "ToolTip": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\Models\\TaskItem.cs",
               "RelativeToolTip": "KanbanToDoListProject\\Models\\TaskItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T17:59:30.222Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Joao Ricardo\\source\\repos\\KanbanToDoListProject\\KanbanToDoListProject\\appsettings.json",
               "RelativeDocumentMoniker": "KanbanToDoListProject\\appsettings.json",

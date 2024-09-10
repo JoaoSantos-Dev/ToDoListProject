@@ -134,3 +134,4 @@ C:\Users\Joao Ricardo\source\repos\KanbanToDoListProject\KanbanToDoListProject\o
 C:\Users\Joao Ricardo\source\repos\KanbanToDoListProject\KanbanToDoListProject\obj\Debug\net8.0\KanbanToDoListProject.pdb
 C:\Users\Joao Ricardo\source\repos\KanbanToDoListProject\KanbanToDoListProject\obj\Debug\net8.0\KanbanToDoListProject.genruntimeconfig.cache
 C:\Users\Joao Ricardo\source\repos\KanbanToDoListProject\KanbanToDoListProject\obj\Debug\net8.0\ref\KanbanToDoListProject.dll
+C:\Users\Joao Ricardo\source\repos\KanbanToDoListProject\KanbanToDoListProject\obj\Debug\net8.0\KanbanToDoListProject.sourcelink.json

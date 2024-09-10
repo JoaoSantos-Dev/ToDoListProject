@@ -8,5 +8,7 @@ namespace KanbanToDoListProject.Data
         public KanbanContext(DbContextOptions<KanbanContext> options) : base(options) { }
 
         public DbSet<TaskItem> TaskItems { get; set; }
+
+
     }
 }
